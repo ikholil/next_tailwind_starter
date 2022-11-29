@@ -36,7 +36,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="py-11 flex flex-col md:flex-row gap-5 justify-between">
+        <div className="py-7 flex flex-col md:flex-row gap-5 justify-between items-center">
           <p className="figure-caption flex flex-col md:flex-row gap-4">
             <span>Copyright © Content</span> <span className="hidden md:block">|</span>{" "}
             <span>

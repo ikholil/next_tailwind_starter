@@ -15,7 +15,7 @@ export const team = [
         img:team2
     },
     {
-        id:2, 
+        id:3, 
         name:'Neal Harrington',
         designation:'Design Team Lead',
         img:team3

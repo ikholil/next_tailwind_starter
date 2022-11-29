@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from '../../public/images/expense/logo.png'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
@@ -76,16 +76,22 @@ export default function Home() {
           >
             <ul className="items-center justify-center md:flex pg-bold list-none pl-0">
               {[
-                ["Home", "#home"],
-                ["About Us", "#about"],
-                ["Features", "#features"],
-                ["Team", "#team"],
-                ["Pricing", "#pricing"],
+                ["Home", "home"],
+                ["Features", "features"],
+                ["About Us", "about"],
+                ["Team", "team"],
+                ["Pricing", "pricing"],
               ].map(([title, url]) => (
                 <li key={url} onClick={() => setNavbar(false)}>
-                  <Link
-                    className={`no-underline mx-3 lg:mx-6 py-2 inline-flex duration-300 heading-6 `}
-                    href={`${url}`}
+                   <Link
+                    className={`cursor-pointer mx-3 lg:mx-6 py-2 inline-flex hover:text-[var(--color-primary)] duration-300 heading-6 `}
+                    to={`${url}`}
+                    spy={true}
+                    smooth={true}
+                    hashSpy={true}
+                    offset={-110}
+                    duration={300}
+                    isDynamic={true}
                   >
                     {title}
                   </Link>

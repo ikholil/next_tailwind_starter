@@ -2,7 +2,7 @@ import { proud } from "../../data/proud";
 
 const Proud = () => {
   return (
-    <section className="max-w-[1296px] mx-auto my-[70px] md:mt-[102px] md:mb-[100px]">
+    <section className="max-w-[1296px] mx-auto my-[70px] md:mt-[102px] md:mb-[100px]"  id="about">
       <div className="color-black text-center flex flex-col items-center">
         <h2 className="heading-2 mb-2">What We Proud Of</h2>
         <p className="pg-default mb-10 md:mb-11 max-w-[746px]">

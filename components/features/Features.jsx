@@ -20,7 +20,7 @@ const Features = () => {
         {features.map(({ id, title, desc, icon }) => (
           <div
             key={id}
-            className={`w-[306px] p-5 md:p-[30px] rounded-[20px] border border-[#B0C3F0] ${
+            className={`w-[306px] p-5 md:p-[30px] rounded-[20px] border border-[#B0C3F0] hover:shadow-xl duration-300 ${
               id == 2 && "relative md:top-10"
             } ${id == 4 && "relative md:top-10"}`}
           >

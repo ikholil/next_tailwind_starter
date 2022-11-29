@@ -103,13 +103,11 @@ html{
     @apply border border-[#C1BCFF];
   }
   .social-icon {
-    @apply cursor-pointer bg-[#1D375C] text-white duration-500 rounded-full p-2 hover:bg-[#6D31F9] transition-all;
+    @apply cursor-pointer bg-[#1D375C] text-white duration-500 rounded-full p-2  hover:bg-[#5C27FE];
   }
-  .gradient-text {
-    @apply text-transparent text-5xl bg-clip-text bg-gradient-to-br from-[#C165DD] to-[#612AFC];
-  }
+ 
   .zoom {
-    @apply hover:scale-110 duration-300 transition-all;
+    @apply hover:scale-125 duration-500 transition-all;
   }
 }
 
@@ -243,3 +241,5 @@ html{
     transform: rotateZ(60deg) translate(1em, -12em);
   }
 }
+
+
