@@ -5,6 +5,7 @@ import hex2 from "../../public/images/expense/hex2.png";
 import BannerImg from "../../public/images/expense/banner_img.png";
 import traffic from "../../public/images/expense/traffic.png";
 import chart from "../../public/images/expense/chart.png";
+import {BsPlayCircleFill} from 'react-icons/bs'
 
 const Banner = () => {
   return (
@@ -25,10 +26,11 @@ const Banner = () => {
             quis viverra ornare, eros dolor interdum nulla, ut commodo diam
             libero vitae erat.
           </p>
-          <div className="flex gap-3 items-start">
+          <div className="flex gap-3 items-start relative">
             <Link className="btn btn-primary self-start sheen" href="#">
               Get Started
             </Link>
+          
           </div>
         </div>
         <div className="w-full lg:w-5/12 pt-5">
