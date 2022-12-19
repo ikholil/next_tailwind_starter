@@ -7,7 +7,7 @@ const Newsletter = () => {
   return (
     <section className="mx-2 2xl:mx-0">
       <div className="max-w-[1296px] mx-auto p-3 md:p-16 rounded-[30px] bg-[#F5F6FC] border border-[#B0C3F0] relative">
-        <div className="flex flex-col items-center text-center mx-2 2xl:mx-0">
+        <div className="flex flex-col items-center text-center">
           <h3 className="heading-3 max-w-[328px] mb-4">
             {"Let's"} save your money today
           </h3>
@@ -18,11 +18,11 @@ const Newsletter = () => {
           </p>
           <form className="md:w-[620px] flex p-1 rounded-[30px] border border-[#B0C3F0]">
             <input
-              className="bg-transparent w-full px-3 md:px-6 focus:outline-none"
+              className="bg-transparent w-full px-2 md:px-6 focus:outline-none"
               type="email"
               placeholder="Enter your Email"
             />
-            <button className="btn btn-primary flex justify-center shadow-none sheen">Subscribe</button>
+            <button className="btn btn-primary flex justify-center shadow-none sheen px-6">Subscribe</button>
           </form>
         </div>
         <Image className="absolute hidden lg:block top-11 left-16 traffic" src={halfring} alt="shape" />

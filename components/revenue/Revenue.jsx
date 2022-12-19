@@ -7,7 +7,7 @@ const Revenue = () => {
   return (
     <section className="px-3 2xl:px-0 py-[70px] md:py-[120px] bg-[#F5F6FC]">
       <div className="max-w-[1296px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5 lg:gap-28 items-center">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5 xl:gap-28 items-center">
           <div className="w-full md:w-4/12 flex items-center h-full shrink-0 justify-center">
             <div className="">
               <Image src={tasks} alt="tasks" />

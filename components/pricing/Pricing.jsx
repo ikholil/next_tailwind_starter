@@ -18,7 +18,7 @@ const Pricing = () => {
           >
             <h2 className="heading-2 mb-5">${plan.price}<span className="heading-5">/mo</span></h2>
             <h4 className="heading-4 mb-5">{plan.title}</h4>
-            <p className="pg-default pb-6 border-b border-[#994CEA]">{plan.desc}</p>
+            <p className="pg-default pb-6 border-b border-[#B0C3F0]">{plan.desc}</p>
             <ul className="mt-7 mb-10 pb-4 list-inside border-b border-[#B0C3F0]">
                 {
                     plan.features.map((feature, index) => (

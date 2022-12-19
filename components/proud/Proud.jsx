@@ -2,14 +2,14 @@ import { proud } from "../../data/proud";
 
 const Proud = () => {
   return (
-    <section className="max-w-[1296px] mx-auto my-[70px] md:mt-[102px] md:mb-[100px]"  id="about">
+    <section className="max-w-[1296px] mx-auto my-[70px] md:mt-[102px] md:mb-[100px] px-3 2xl:px-0"  id="about">
       <div className="color-black text-center flex flex-col items-center">
         <h2 className="heading-2 mb-2">What We Proud Of</h2>
         <p className="pg-default mb-10 md:mb-11 max-w-[746px]">
         Duis non mi velit. Sed ultricies ultrices dapibus. Sed ut dui diam. Aliquam aliquam fringilla mi, vitae tincidunt urna accumsan sit amet.
         </p>
       </div>
-      <div className="flex flex-wrap gap-6 justify-center lg:justify-between">
+      <div className="flex flex-wrap gap-6 justify-center xl:justify-between">
         {proud.map((item) => (
           <div
             className="text-center min-w-[200px]"

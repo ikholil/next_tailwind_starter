@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Logo from '../../public/images/expense/logo.png'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import NextLink from 'next/link'
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
@@ -18,16 +19,16 @@ export default function Home() {
   }, []);
   return (
     <nav
-      className={`w-full fixed z-20 ${
+      className={`w-full fixed z-30 ${
         scrolled ? "bg-white " : " bg-transparent"
       } `}
     >
       <div className="justify-between px-4 2xl:px-0 mx-auto lg:max-w-7xl md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-1 md:py-5 2xl:py-7 md:block">
-            <Link href="/">
+            <NextLink href="/">
               <Image className="h-12 md:h-auto" src={Logo} alt="logo" />
-            </Link>
+            </NextLink>
             <div className="md:hidden">
               <button
                 className="p-1 md:p-2 text-gray-700 rounded-md outline-none border-none focus:border-none focus:outline-none"
@@ -70,7 +71,7 @@ export default function Home() {
           <div
             className={`flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${
               navbar
-                ? "block absolute top-[48px] left-0 z-10 w-full bg-white mx-0 shadow-md"
+                ? "block absolute top-[54px] left-0 z-10 w-full bg-white mx-0 shadow-md"
                 : "hidden"
             }`}
           >
@@ -98,12 +99,12 @@ export default function Home() {
                 </li>
               ))}
               <li className="block md:hidden lg:block">
-                <Link
-                  href="/contact"
+                <NextLink
+                  href="#"
                   className="btn btn-primary ml-3 md:ml-6 sheen"
                 >
                   Get Started
-                </Link>
+                </NextLink>
               </li>
             </ul>
           </div>

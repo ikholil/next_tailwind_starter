@@ -26,24 +26,24 @@ const Banner = () => {
         src={hex2}
         alt="shape 2"
       />
-      <div className="max-w-[1296px] mx-auto flex flex-col lg:flex-row items-center pt-32 md:pt-20">
+      <div className="max-w-[1296px] mx-auto flex flex-col lg:flex-row items-center pt-32">
         <div className="w-full lg:w-7/12 px-3 2xl:px-0">
           <h1 className="heading-1 color-black mb-[2px]">
             Take your expenses under control
           </h1>
-          <p className="pg-large mb-6 md:mb-8">
+          <p className="pg-large mb-6 md:mb-8 max-w-[740px]">
             Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
             quis viverra ornare, eros dolor interdum nulla, ut commodo diam
             libero vitae erat.
           </p>
-          <div className="flex gap-6 items-start relative">
+          <div className="flex gap-6 items-start relative pb-10 lg:pb-16">
             <Link className="btn btn-primary self-start sheen" href="#">
               Get Started
             </Link>
             <button onClick={() => setOpen(true)}>
               <span className="relative">
-                <span className="center absolute playbutton bg-white rounded-full z-30">
-                  <BsPlayCircleFill className="text-[#9349EC] bg-white rounded-full border-none text-[42px] cursor-pointer" />
+                <span className="center absolute playbutton bg-white rounded-full z-20">
+                  <BsPlayCircleFill className="text-[#9349EC] bg-white rounded-full border-none text-[40px] cursor-pointer" />
                 </span>
               </span>
             </button>
@@ -59,17 +59,17 @@ const Banner = () => {
         <div className="w-full lg:w-5/12 pt-5">
           <div className="xl:left-[200px] relative">
             <Image
-              className="hidden lg:block absolute top-[105px] -left-28 traffic"
+              className="hidden 2xl:block absolute top-[105px] -left-28 traffic"
               src={traffic}
               alt="traffic"
             />
             <Image
-              className="hidden lg:block absolute right-4 top-[250px] z-10 chart"
+              className="hidden 2xl:block absolute right-4 top-[250px] z-10 chart"
               src={chart}
               alt="chart"
             />
             <Image
-              className=" relative max-w-[300px] max-h-[500px] md:max-h-max md:max-w-max mx-auto"
+              className=" relative max-w-[300px] max-h-[500px] xl:max-h-max xl:max-w-max mx-auto"
               src={BannerImg}
               alt="banner img"
             />

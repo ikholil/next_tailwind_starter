@@ -3,10 +3,10 @@ import { features } from "../../data/features";
 
 const Features = () => {
   return (
-    <section className="max-w-[1296px] mx-auto flex flex-col xl:flex-row justify-between items-center my-[70px] md:mt-[120px] md:mb-[160px]" id="features">
-      <div className="w-full lg:w-5/12 color-black px-3 2xl:px-0">
+    <section className="max-w-[1296px] mx-auto flex flex-col xl:flex-row justify-between items-center my-[70px] md:mt-[105px] xl:mt-[120px] md:mb-[160px]" id="features">
+      <div className="w-full xl:w-5/12 color-black px-3 2xl:px-0 mb-10">
         <h2 className="heading-2 mb-2">Our core features</h2>
-        <p className="pg-default mb-6 md:mb-8">
+        <p className="pg-default mb-6 md:mb-8 max-w-[530px]">
           In eget dui varius neque malesuada fermentum in non purus. Praesent
           viverra consectetur eros a luctus.
         </p>
