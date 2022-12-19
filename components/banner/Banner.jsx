@@ -5,12 +5,22 @@ import hex2 from "../../public/images/expense/hex2.png";
 import BannerImg from "../../public/images/expense/banner_img.png";
 import traffic from "../../public/images/expense/traffic.png";
 import chart from "../../public/images/expense/chart.png";
-import {BsPlayCircleFill} from 'react-icons/bs'
+import { BsPlayCircleFill } from "react-icons/bs";
+import ModalVideo from "react-modal-video";
+import { useState } from "react";
 
 const Banner = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
-    <section className="lg:bg-[url('/images/expense/banner_bg.png')] bg-no-repeat bg-cover relative bg-[#E8EFFF]" id="home">
-      <Image className="hidden lg:block absolute top-56 left-16 hex1" src={hex} alt="shape 1" />
+    <section
+      className="lg:bg-[url('/images/expense/banner_bg.png')] bg-no-repeat bg-cover relative bg-[#E8EFFF]"
+      id="home"
+    >
+      <Image
+        className="hidden lg:block absolute top-56 left-16 hex1"
+        src={hex}
+        alt="shape 1"
+      />
       <Image
         className="hidden lg:block absolute bottom-20 right-[800px] hex2"
         src={hex2}
@@ -26,12 +36,25 @@ const Banner = () => {
             quis viverra ornare, eros dolor interdum nulla, ut commodo diam
             libero vitae erat.
           </p>
-          <div className="flex gap-3 items-start relative">
+          <div className="flex gap-6 items-start relative">
             <Link className="btn btn-primary self-start sheen" href="#">
               Get Started
             </Link>
-          
+            <button onClick={() => setOpen(true)}>
+              <span className="relative">
+                <span className="center absolute playbutton bg-white rounded-full z-30">
+                  <BsPlayCircleFill className="text-[#9349EC] bg-white rounded-full border-none text-[42px] cursor-pointer" />
+                </span>
+              </span>
+            </button>
           </div>
+          <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="y0oMPjoCLD0"
+              onClose={() => setOpen(false)}
+            />
         </div>
         <div className="w-full lg:w-5/12 pt-5">
           <div className="xl:left-[200px] relative">

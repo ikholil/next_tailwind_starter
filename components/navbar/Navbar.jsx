@@ -7,7 +7,7 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const showNavbar = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 80) {
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -78,8 +78,8 @@ export default function Home() {
               {[
                 ["Home", "home"],
                 ["Features", "features"],
-                ["About Us", "about"],
                 ["Team", "team"],
+                ["About Us", "about"],
                 ["Pricing", "pricing"],
               ].map(([title, url]) => (
                 <li key={url} onClick={() => setNavbar(false)}>

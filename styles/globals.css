@@ -105,7 +105,9 @@ html{
   .social-icon {
     @apply cursor-pointer bg-[#1D375C] text-white duration-500 rounded-full p-2  hover:bg-[#5C27FE];
   }
- 
+  .gradient-text {
+    @apply text-transparent text-4xl bg-clip-text bg-gradient-to-r from-[#C165DD] to-[#5C27FE];
+  }
   .zoom {
     @apply hover:scale-125 duration-500 transition-all;
   }
@@ -249,11 +251,12 @@ html{
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: green;
+  background-image: linear-gradient(to right, #B35DE1, #6D31F8);
   border-radius: 50%;
   z-index:-1;
   opacity:0.7;
   top:0;
+  left: 0;
 }
 .playbutton:before{
   animation: pulse 3s ease-out infinite;

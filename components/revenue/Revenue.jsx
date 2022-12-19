@@ -7,8 +7,8 @@ const Revenue = () => {
   return (
     <section className="px-3 2xl:px-0 py-[70px] md:py-[120px] bg-[#F5F6FC]">
       <div className="max-w-[1296px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-28 items-center">
-          <div className="w-full lg:w-5/12 flex items-center h-full">
+        <div className="flex flex-col md:flex-row justify-center md:justify-between gap-5 lg:gap-28 items-center">
+          <div className="w-full md:w-4/12 flex items-center h-full shrink-0 justify-center">
             <div className="">
               <Image src={tasks} alt="tasks" />
             </div>
@@ -17,7 +17,7 @@ const Revenue = () => {
               <Image src={chartr} alt="chart" />
             </div>
           </div>
-          <div className="w-full md:w-7-12 color-black">
+          <div className="w-full md:w-7/12 color-black shrink-0">
             <h2 className="heading-2 max-w-[606px] mb-2">Increase Revenue up to 80%</h2>
             <p className="pg-default">Duis non mi velit. Sed ultricies ultrices dapibus. Sed ut dui diam. Aliquam aliquam fringilla mi, vitae tincidunt urna accumsan sit amet. Nunc congue metus in lorem suscipit malesuada.</p>
           </div>
