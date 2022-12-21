@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Logo from '../../public/images/expense/logo.png'
+import Logo from '../../public/images/logo.png'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import NextLink from 'next/link'
 

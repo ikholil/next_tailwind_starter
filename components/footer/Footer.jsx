@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { RiLinkedinFill } from "react-icons/ri";
 import Image from "next/image";
-import Logo from '../../public/images/expense/logo.png'
+import Logo from '../../public/images/logo.png'
 
 const socialData = [{ id: 1, icon: <CgFacebook className="social-icon" />, link: "" }, { id: 2, icon: <BsTwitter className="social-icon" />, link: "" }, { id: 3, icon: <RiLinkedinFill className="social-icon" />, link: "" }, { id: 4, icon: <AiOutlineInstagram className="social-icon"/>, link: "" }];
 const Footer = () => {

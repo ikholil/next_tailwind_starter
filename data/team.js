@@ -1,6 +1,6 @@
-import team1 from '../public/images/expense/team1.png'
-import team2 from '../public/images/expense/team2.png'
-import team3 from '../public/images/expense/team3.png'
+import team1 from '../public/images/team1.png'
+import team2 from '../public/images/team2.png'
+import team3 from '../public/images/team3.png'
 export const team = [
     {
         id:1, 

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import hex from "../../public/images/expense/hex.png";
-import hex2 from "../../public/images/expense/hex2.png";
-import BannerImg from "../../public/images/expense/banner_img.png";
-import traffic from "../../public/images/expense/traffic.png";
-import chart from "../../public/images/expense/chart.png";
+import hex from "../../public/images/hex.png";
+import hex2 from "../../public/images/hex2.png";
+import BannerImg from "../../public/images/banner_img.png";
+import traffic from "../../public/images/traffic.png";
+import chart from "../../public/images/chart.png";
 import { BsPlayCircleFill } from "react-icons/bs";
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
@@ -13,7 +13,7 @@ const Banner = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <section
-      className="lg:bg-[url('/images/expense/banner_bg.png')] bg-no-repeat bg-cover relative bg-[#E8EFFF]"
+      className="lg:bg-[url('/images/banner_bg.png')] bg-no-repeat bg-cover relative bg-[#E8EFFF]"
       id="home"
     >
       <Image

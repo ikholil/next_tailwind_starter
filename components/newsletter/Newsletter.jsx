@@ -1,7 +1,7 @@
-import ringone from "../../public/images/expense/ring1.png";
-import ringtwo from "../../public/images/expense/ring2.png";
-import halfring from "../../public/images/expense/half_ring.png";
-import hex from "../../public/images/expense/hex.png";
+import ringone from "../../public/images/ring1.png";
+import ringtwo from "../../public/images/ring2.png";
+import halfring from "../../public/images/half_ring.png";
+import hex from "../../public/images/hex.png";
 import Image from "next/image";
 const Newsletter = () => {
   return (

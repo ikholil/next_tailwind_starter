@@ -1,6 +1,6 @@
-import trafficr from "../../public/images/expense/trafficr.png";
-import chartr from "../../public/images/expense/chartr.png";
-import tasks from "../../public/images/expense/tasks.png";
+import trafficr from "../../public/images/trafficr.png";
+import chartr from "../../public/images/chartr.png";
+import tasks from "../../public/images/tasks.png";
 import Image from "next/image";
 
 const Revenue = () => {
