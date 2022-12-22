@@ -2,25 +2,25 @@ export const proud = [
     {
         id:1, 
         title: 'Uptime',
-        proud:'83.9',
+        number:83.9,
         sign: '%'
     },
     {
         id:2, 
         title: 'Faster than competitors',
-        proud:'15',
+        number:15,
         sign: 'x'
     },
     {
         id:3, 
         title: 'Revenue in first month',
-        proud:'29',
+        number:29,
         sign: '%'
     },
     {
         id:4, 
         title: 'Rating from customers',
-        proud:'5',
+        number:5,
         sign: ' Stars'
     },
 ]
