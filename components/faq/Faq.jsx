@@ -11,7 +11,7 @@ const Faq = () => {
       setSelected(id);
     };
     return (
-      <section className="max-w-[1296px] mx-auto pb-[70px] md:pb-[100px]">
+      <section className="max-w-[1296px] mx-auto pb-[50px] md:pb-[100px]">
         <div className="color-black text-center flex flex-col items-center px-3 2xl:px-0">
           <h2 className="heading-2 mb-5">Frequently Asked Questions</h2>
           <p className="pg-default mb-10 md:mb-11 max-w-[746px]">

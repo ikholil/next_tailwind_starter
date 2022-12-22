@@ -3,7 +3,7 @@ import {team} from "../../data/team"
 
 const Team = () => {
   return (
-    <section className="max-w-[1296px] mx-auto my-[70px] md:mt-[102px] md:mb-[102px] px-3 2xl:px-0" id="team">
+    <section className="max-w-[1296px] mx-auto mb-[70px] mt-[60px] md:mt-[102px] md:mb-[102px] px-3 2xl:px-0" id="team">
       <div className="color-black text-center flex flex-col items-center">
         <h2 className="heading-2 mb-2">Our Team</h2>
         <p className="pg-default mb-10 md:mb-14 max-w-[746px]">
