@@ -14,7 +14,7 @@ const Team = () => {
       <div className="flex flex-wrap gap-6 mx-2 2xl:mx-0 justify-center">
         {team.map((member) => (
           <div
-            className="w-[310px] sm:w-[416px] bg-[#E8EFFF] rounded-[30px] relative team hover:shadow-lg duration-300"
+            className="w-[310px] sm:w-[416px] bg-[#E8EFFF] rounded-[30px] relative team hover:shadow-xl duration-300"
             key={member.id}
           >
             <Image src={member.img} alt="team" className="rounded-[30px]" />

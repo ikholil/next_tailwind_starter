@@ -18,7 +18,7 @@ const Faq = () => {
           Duis non mi velit. Sed ultricies ultrices dapibus. Sed ut dui diam. Aliquam aliquam fringilla mi, vitae tincidunt urna accumsan sit amet.
           </p>
         </div>
-        <div className="max-w-[856px] mx-auto px-3 2xl:px-0">
+        <div className="max-w-[856px] mx-auto px-3 2xl:px-0 color-black">
             {faqs.map((faq) => (
               <div
                 className="cursor-pointer border border-[#B0C3F0] rounded-[10px] bg-[#F5F6FC] mb-5 md:mb-[30px]"

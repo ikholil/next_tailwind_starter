@@ -5,11 +5,11 @@ import hex from "../../public/images/hex.png";
 import Image from "next/image";
 const Newsletter = () => {
   return (
-    <section className="mx-2 2xl:mx-0">
+    <section className="mx-2 2xl:mx-0 color-black">
       <div className="max-w-[1296px] mx-auto p-3 md:p-16 rounded-[30px] bg-[#F5F6FC] border border-[#B0C3F0] relative">
         <div className="flex flex-col items-center text-center">
           <h3 className="heading-3 max-w-[328px] mb-4">
-            {"Let's"} save your money today
+            Let&apos;s save your money today
           </h3>
           <p className="pg-default max-w-[746px] mb-7 md:mb-9 ">
             Duis non mi velit. Sed ultricies ultrices dapibus. Sed ut dui diam.

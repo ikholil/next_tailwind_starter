@@ -11,6 +11,7 @@ body {
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  color: var(--color-dark);
 }
 html{
   scroll-behavior: smooth;
@@ -51,7 +52,7 @@ html{
     leading-[49px] 
     sm:leading-[74px]
     md:leading-[99px] 
-    font-bold text-white;
+    font-bold;
   }
   .heading-2 {
     @apply text-[32px] md:text-[57px] leading-[42px] md:leading-[74px] font-bold;

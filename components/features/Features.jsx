@@ -16,7 +16,7 @@ const Features = () => {
           </Link>
         </div>
       </div>
-      <div className="w-full lg:w-9/12 2xl:w-6/12  flex flex-wrap gap-5 justify-center px-3 2xl:px-0 mt-5 2xl:mt-0">
+      <div className="w-full lg:w-9/12 2xl:w-6/12 color-black flex flex-wrap gap-5 justify-center px-3 2xl:px-0 mt-5 2xl:mt-0">
         {features.map(({ id, title, desc, icon }) => (
           <div
             key={id}

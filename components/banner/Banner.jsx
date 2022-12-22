@@ -26,9 +26,9 @@ const Banner = () => {
         src={hex2}
         alt="shape 2"
       />
-      <div className="max-w-[1296px] mx-auto flex flex-col lg:flex-row items-center pt-32">
+      <div className="max-w-[1296px] mx-auto flex flex-col lg:flex-row items-center pt-32 color-black">
         <div className="w-full lg:w-7/12 px-3 2xl:px-0">
-          <h1 className="heading-1 color-black mb-[2px]">
+          <h1 className="heading-1 mb-[2px]">
             Take your expenses under control
           </h1>
           <p className="pg-large mb-6 md:mb-8 max-w-[740px]">
