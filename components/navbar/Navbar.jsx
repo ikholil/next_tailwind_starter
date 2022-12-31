@@ -83,8 +83,9 @@ export default function Home() {
                 ["About Us", "about"],
                 ["Pricing", "pricing"],
               ].map(([title, url]) => (
-                <li key={url} onClick={() => setNavbar(false)}>
+                <li key={url}>
                    <Link
+                    onClick={() => setNavbar(false)}
                     className={`cursor-pointer mx-3 lg:mx-6 py-2 inline-flex hover:text-[var(--color-primary)] duration-300 heading-6 `}
                     to={`${url}`}
                     spy={true}
